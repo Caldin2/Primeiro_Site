@@ -1,0 +1,138 @@
+/*    1 parte do site    */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: #F0E3FA;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.Logo{
+  width: 13%;
+
+}
+    
+.Cabeçalho-Itens{
+  color: #D558EA;
+  display: inline-block;
+  padding: 0 18px;
+  font-size: 30px;
+
+}
+
+.Cabeçalho-Itens1{
+  color: #D558EA;
+  display: inline-block;
+  padding: 0 20px 0;
+  font-size: 20px;
+
+}
+
+/*    2 parte do site    */
+
+.escola-imagem{
+ width: 25%;
+}
+
+.Curiosidades-sobre-Tecstudy{
+   background-image: linear-gradient(#F0E3FA 0%, #DFE4F9 100%);
+   color: #987A9D;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 24px, 0;
+}
+
+.Tecstudy-div-conteudo{
+  width: 35%;
+  font-size: 20px;
+}
+
+.Tecstudy-texto1{
+  padding: 0 0 17px;
+}
+
+.Redes-Sociais{
+  position: absolute;
+  top: 30%;
+  right: 0.1px;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Redes-Sociais li{
+  list-style: none;
+}
+
+.Redes-Sociais li a{
+  display: inline-block;
+  margin: 5px 0;
+  transform: scale(0.3);
+}
+
+section .Curiosidades-sobre-Tecstudy{
+  padding: 350px 0 0;
+}
+
+/*    3 parte do site    */
+
+section .Seleção-Cursos{
+  padding: 100px 0 0;
+}
+
+
+.Seleção-Cursos{
+  text-align: center;
+  background-color: #CCE5F8;
+  padding: 10px 0 0;
+}
+
+.Titulo{
+  color: #586FEA;
+  padding: 10px 0 0;
+}
+
+.Texto1{
+  color: #987A9D;
+  padding: 0 0;
+}
+
+.Cursos{
+ display: grid;
+ grid-template-columns: 20% 20% 20% 20%;
+ padding: 100px 0 95px;
+}
+
+.Programação{
+  width: 70%;
+  padding: 0 300px;
+}
+
+.Front-End{
+  width: 70%;
+  padding: 0 300px;
+}
+
+.Ux-e-Desing{
+  width: 70%;
+  padding: 0 300px;
+}
+
+.Edição-de-Fotos-e-Videos{
+  width: 70%;
+  padding: 0 300px;
+}
